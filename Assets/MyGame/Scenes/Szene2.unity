@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &277561336
+--- !u!1 &423671667
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,36 +131,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 277561338}
-  - component: {fileID: 277561337}
+  - component: {fileID: 423671669}
+  - component: {fileID: 423671668}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: SceneManger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &277561337
+--- !u!114 &423671668
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277561336}
+  m_GameObject: {fileID: 423671667}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecfa25a83e7a049adad21ecc6b3ef166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A2: {fileID: 1362954896}
-  A3: {fileID: 2045417149}
---- !u!4 &277561338
+--- !u!4 &423671669
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277561336}
+  m_GameObject: {fileID: 423671667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.42135394, y: -1.2484214, z: -1.1100637}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -321,7 +319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Was unterscheidet einen gemeinen Folder von einem git Repository.
+  m_Text: Kann eine Methode ausserhalb einer Klasse definiert werden?
 --- !u!222 &532827160
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -579,19 +577,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 733015259}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 277561337}
-        m_TargetAssemblyTypeName: Controller, Assembly-CSharp
-        m_MethodName: ChangeScene01
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &733015259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,7 +806,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: .gitignore
+  m_Text: nein
 --- !u!222 &1714624629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -899,7 +885,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: .git Folder
+  m_Text: naja
 --- !u!222 &1834360039
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -978,7 +964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: .readme
+  m_Text: ja
 --- !u!222 &1851085131
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1068,7 +1054,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2045417150}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 423671668}
+        m_TargetAssemblyTypeName: Controller, Assembly-CSharp
+        m_MethodName: ChangeScene02
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2045417150
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ WebGL (960x600)
 /
 
 ### Limitations: 
-/
+Failed to load Window Feher am Anfang, Unverständliche Compiler Errors danach, dann trotz speichern wieder alles weg und plötzliches Ausfallen der IDE in Visual Studio 
 
 ### Lessons Learned: 
 /
